@@ -1,0 +1,7 @@
+{
+  "name": "licitacoes-adv-os",
+  "version": "0.1.0",
+  "description": "Sistema operacional do advogado brasileiro especialista em licitacoes (Lei 14.133/2021) e contratos administrativos, atendendo a empresa fornecedora/licitante. ~33 skills em 7 Tiers cobrindo consultivo (analise de edital, ETP/TR/matriz de risco), contencioso administrativo (impugnacao, recurso, sancao, PAR Lei 12.846), controle externo (representacao TCU/TCE, defesa em apenamento) e judicial (MS, anulatoria, cobranca, reequilibrio, indenizacao). Governanca 4 Camadas (22 PAs + 6 Protocolos + Revisao R1-R4 + Skills). Atualizado com Lei 14.133/2021 (Nova Lei), transicao da Lei 8.666/93, Decreto 11.246/2022, IN SEGES, sumulas TCU vigentes, Lei 12.846 Anticorrupcao + Decreto 11.129/2022 (Programa de Integridade), Lei 14.230/2021 (Reforma da Improbidade).",
+  "author": { "name": "IA Combativa" },
+  "license": "MIT"
+}

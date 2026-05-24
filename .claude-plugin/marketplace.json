@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "licitacoes-adv-os-marketplace",
+  "description": "Marketplace oficial do plugin Licitacoes Adv-OS. Sistema operacional do advogado brasileiro especialista em licitacoes (Lei 14.133/2021) e contratos administrativos.",
+  "owner": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+  },
+  "plugins": [
+    {
+      "name": "licitacoes-adv-os",
+      "source": "./licitacoes-adv-os",
+      "description": "Sistema operacional do advogado brasileiro especialista em licitacoes (Lei 14.133/2021) e contratos administrativos. 33 skills em 7 Tiers cobrindo consultivo pre-edital, impugnacao, recurso, contrato, sancao, PAR Lei 12.846, representacao TCU/TCE e judicial (MS, anulatoria, cobranca). Governanca de 4 Camadas (22 PAs + 6 Protocolos + Revisao R1-R4).",
+      "author": {
+        "name": "Sbroggio Advocacia & IA Combativa"
+      }
+    }
+  ]
+}
