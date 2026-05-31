@@ -4,6 +4,8 @@ description: >
   Wizard de configuracao inicial do plugin no ambiente do escritorio especialista em licitacoes. Coleta identidade do advogado (nome, OAB e UF), escritorio, cidade e UF de atuacao (eixo critico - Protocolo 5: TCE/TCM aplicavel, foro estadual, JF para MS contra autoridade federal), AREA_FOCO (consultivo-edital / contencioso-administrativo / tcu-tce / judicial / todos), frentes ativas, tom de voz e modo de melhor saida. Grava persona local em `<cwd>/licitacoes/persona.md` (fora do plugin distribuido). LGPD + sigilo comercial reforcado - alerta agressivo se pasta sincronizada (proposta, planilha de custos e segredo industrial sao sigilosos - Lei 9.279/96 art. 195 XI + Lei 14.133 arts. 13 §3º e 17). Aciona: configurar plugin, primeira vez, /start-licitacoes, onboarding, instalar, comecar a usar, configurar escritorio, persona.
 ---
 
+> **🖱️ Escolhas = botoes:** em campos de **lista fechada** (AREA_FOCO, tom, modo, atualizar/recriar, sim/nao) use a ferramenta **AskUserQuestion** para mostrar **botoes clicaveis** (max. 4 por pergunta; se houver mais, divida em 2). **Texto livre** (nome, OAB, cidade, e-mail) segue como pergunta digitada normal.
+
 # ONBOARDING LICITACOES
 
 > Wizard de configuracao inicial **Tier 0**. Linguagem acolhedora, tom didatico. Conduz o operador a configurar o plugin ao perfil do escritorio especialista em licitacoes - com atencao especial a **localizacao** (cidade + UF - eixo do Protocolo 5), a **AREA_FOCO** (define prioridade de roteamento) e ao alerta de **sigilo comercial agressivo** (proposta + planilha + segredo industrial - PA-09, PA-22).
