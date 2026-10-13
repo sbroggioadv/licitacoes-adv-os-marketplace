@@ -1,14 +1,16 @@
 {
-  "SessionStart": [
-    {
-      "matcher": "",
-      "hooks": [
-        {
-          "type": "command",
-          "command": "echo '[licitacoes-adv-os] Plugin de licitacoes e contratos administrativos ativo. Rode /start-licitacoes. Lei 14.133/2021: edital, sessao, recurso e TCU.'",
-          "timeout": 5
-        }
-      ]
-    }
-  ]
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[licitacoes-adv-os] Plugin de licitacoes e contratos administrativos ativo. Rode /start-licitacoes. Lei 14.133/2021: edital, sessao, recurso e TCU.'",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
 }
